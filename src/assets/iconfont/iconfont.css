@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4882494 */
+  src: url('iconfont.woff2?t=1743932730543') format('woff2'),
+       url('iconfont.woff?t=1743932730543') format('woff'),
+       url('iconfont.ttf?t=1743932730543') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bilibili:before {
+  content: "\e7c6";
+}
+
+.icon-bilibili_fill:before {
+  content: "\e8db";
+}
+
+.icon-bilibili_fill1:before {
+  content: "\e620";
+}
+
+.icon-twitter:before {
+  content: "\e882";
+}
+
+.icon-Youtube-fill:before {
+  content: "\e883";
+}
+
+.icon-github-fill:before {
+  content: "\e885";
+}
+
+.icon-instagram-fill:before {
+  content: "\e88f";
+}
+

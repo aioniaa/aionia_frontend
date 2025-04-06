@@ -1,0 +1,58 @@
+{
+  "id": "4882494",
+  "name": "aionia",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "42262237",
+      "name": "bilibili",
+      "font_class": "bilibili",
+      "unicode": "e7c6",
+      "unicode_decimal": 59334
+    },
+    {
+      "icon_id": "43299670",
+      "name": "bilibili_fill",
+      "font_class": "bilibili_fill",
+      "unicode": "e8db",
+      "unicode_decimal": 59611
+    },
+    {
+      "icon_id": "43322300",
+      "name": "bilibili_fill",
+      "font_class": "bilibili_fill1",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "4936985",
+      "name": "twitter",
+      "font_class": "twitter",
+      "unicode": "e882",
+      "unicode_decimal": 59522
+    },
+    {
+      "icon_id": "4936989",
+      "name": "Youtube-fill",
+      "font_class": "Youtube-fill",
+      "unicode": "e883",
+      "unicode_decimal": 59523
+    },
+    {
+      "icon_id": "4937000",
+      "name": "github-fill",
+      "font_class": "github-fill",
+      "unicode": "e885",
+      "unicode_decimal": 59525
+    },
+    {
+      "icon_id": "4937026",
+      "name": "instagram-fill",
+      "font_class": "instagram-fill",
+      "unicode": "e88f",
+      "unicode_decimal": 59535
+    }
+  ]
+}
