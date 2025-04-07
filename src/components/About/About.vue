@@ -14,20 +14,21 @@ let webUrls = ({
 <template>
     <div class="container">
         <h1>PLEASE SUBSCRIBE ME!!!</h1>
+        <!-- 按钮链接 _blank让其在新的标签页打开 -->
         <div class="urls-container">
-            <a :href="webUrls.Youtube">
+            <a :href="webUrls.Youtube" target="_blank">
                 <i class="iconfont icon-Youtube-fill"></i>
                 Youtube
             </a>
-            <a :href="webUrls.Github">
+            <a :href="webUrls.Github" target="_blank">
                 <i class="iconfont icon-github-fill"></i>
                 Github
             </a>
-            <a :href="webUrls.Twitter">
+            <a :href="webUrls.Twitter" target="_blank">
                 <i class="iconfont icon-twitter"></i>
                 Twitter
             </a>
-            <a :href="webUrls.Bilibili">
+            <a :href="webUrls.Bilibili" target="_blank">
                 <i class="iconfont icon-bilibili_fill"></i>
                 Bilibili
             </a>
@@ -75,6 +76,7 @@ let webUrls = ({
 
 }
 
+/* 利用伪元素只让背景模糊 */
 /*.container::before {
     content: "";
     position: absolute;

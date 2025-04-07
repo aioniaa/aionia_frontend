@@ -6,17 +6,13 @@ let mainInfo = reactive({
     username: "AIONIA",
 })
 
-
 </script>
 
 <template>
     <div class="container">
-        <!--  mainInfo  -->
-        <div class="mainInfo-container">
-            <div class="image-container">
-                <img src="@/assets/avatar.png" class="image-avatar" alt="avatar">
-            </div>
-            <div class="username">{{ mainInfo.username }}</div>
+        <!--  anotherInfo  -->
+        <div class="anotherInfo">
+            其他信息
         </div>
 
         <!--  menu  -->
@@ -26,9 +22,12 @@ let mainInfo = reactive({
             <router-link class="menu-item" to="/about" active-class="active">关于</router-link>
         </div>
 
-        <!--  anotherInfo  -->
-        <div class="anotherInfo">
-            其他信息
+        <!--  mainInfo  -->
+        <div class="mainInfo-container">
+            <div class="username">{{ mainInfo.username }}</div>
+            <div class="image-container">
+                <img src="@/assets/avatar.png" class="image-avatar" alt="avatar">
+            </div>
         </div>
     </div>
 </template>
@@ -39,10 +38,11 @@ let mainInfo = reactive({
     align-items: center;
     justify-content: space-between;
     position: relative; /* 定位参考基准 */
-    height: 70px;
+    height: 50px;
     background-color: #2C314E;
     overflow: hidden;
     padding: 10px;
+    padding-inline: 30px;
     transition: all 0.5s;
     color: white;
 }
@@ -54,12 +54,11 @@ let mainInfo = reactive({
 
     /* -- avatar style -- */
     .image-container {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         overflow: hidden;
         border-radius: 50%;
         border: 2px solid white;
-
         box-shadow: 0 0 4px 0 white;
     }
 
@@ -73,9 +72,9 @@ let mainInfo = reactive({
     }
 
     .username {
-        margin-left: 20px;
+        margin-right: 20px;
         font-family: "HarmonyOS Sans", sans-serif;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bolder;
     }
 }
@@ -108,6 +107,7 @@ let mainInfo = reactive({
         background-position: left bottom;
         background-size: 100% 6px;
     }
+    /* 被激活时的样式 */
     .menu-item.active {
         /* 下划线样式 */
         background: linear-gradient(to right, #ff0000, #ff0000) no-repeat right bottom;
