@@ -47,7 +47,6 @@ let webUrls = ({
     background: url("@/assets/about_bg.png") no-repeat center/cover;
     transition: all 0.5s;
 
-
     a {
         display: inline-block;
         width: 230px;

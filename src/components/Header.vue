@@ -12,7 +12,7 @@ let mainInfo = reactive({
     <div class="container">
         <!--  anotherInfo  -->
         <div class="anotherInfo">
-            其他信息
+            Aionia
         </div>
 
         <!--  menu  -->
@@ -118,6 +118,7 @@ let mainInfo = reactive({
 /* -- anotherInfo style -- */
 .anotherInfo {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 50px;
+    font-family: "Novecento wide Bold", sans-serif;
 }
 </style>
